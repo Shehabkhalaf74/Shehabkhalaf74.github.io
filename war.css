@@ -1,0 +1,262 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(236 237 237);
+    justify-content: space-around;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+input {
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.home {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.login {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.header a:hover {
+    color: red;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(236 237 237);
+    width: 100%;
+    justify-content: space-around;
+    z-index: 3;
+}
+
+.footer .zf {
+    width: 20%;
+}
+
+.footer .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: calc(80% / 6);
+}
+
+.fa {
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-facebook {
+    color: black;
+}
+
+.fa-twitter {
+    color: black;
+}
+
+.fa-google {
+    color: black;
+}
+
+.fa-linkedin {
+    color: black;
+}
+
+.fa-youtube {
+    color: black;
+}
+
+.fa-instagram {
+    color: black;
+}
+
+.fa-facebook:hover {
+    color: #4267B2;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.fa-google:hover {
+    color: #F4B400;
+}
+
+.fa-linkedin:hover {
+    color: #0077b5;
+}
+
+.fa-youtube:hover {
+    color: #FF0000;
+}
+
+.fa-instagram:hover {
+    color: #e95950;
+}
+
+
+.walls {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.video {
+    align-self: center;
+    height: 10%;
+}
+
+.informa {
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    color: rgb(240, 10, 10);
+}
+
+.h1 {
+    align-self: center;
+}
+
+.after {
+    width: 35%;
+    align-self: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.war {
+    width: 35%;
+    align-self: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.world {
+    width: 35%;
+    align-self: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.alot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.stand {
+    display: flex;
+    flex-direction: column;
+}
+
+.h2 {
+    width: 35%;
+}
+
+.para {
+    font-size: 20px;
+    font-weight: bold;
+    width: 35%;
+}
+
+.require {
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    width: 80%;
+    border: 2px solid grey;
+    text-align: center;
+}
+
+.re {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 2px;
+
+
+}
+
+table td {
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: larger;
+    color: azure;
+}
+
+.downloading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.downlo:hover {
+    color: red;
+}
+
+.downlo {
+    color: azure;
+    padding: 20px;
+    border: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.sup:hover {
+    color: red;
+}
+
+.sup {
+    color: azure;
+    padding: 20px;
+    border: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+button {
+    color: white;
+    padding: 20px;
+    border: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+button:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.shehab {
+    position: fixed;
+    bottom: 2%;
+    right: 0px;
+}
